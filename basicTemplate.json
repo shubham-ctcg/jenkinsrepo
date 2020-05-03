@@ -1,6 +1,6 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "Basic template Test 1",
+	"Description": "Basic template",
 	"Parameters": {
 		"UserKeys": {
 			"Type": "AWS::EC2::KeyPair::KeyName",
