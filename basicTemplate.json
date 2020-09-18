@@ -1,6 +1,6 @@
 {
 	"AWSTemplateFormatVersion": "2010-09-09",
-	"Description": "Basic temp1",
+	"Description": "Basic temp2",
 	"Parameters": {
 		"UserKeys": {
 			"Type": "AWS::EC2::KeyPair::KeyName",
