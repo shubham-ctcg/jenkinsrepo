@@ -20,7 +20,7 @@
 			"Type": "AWS::EC2::Instance",
 			"DependsOn": "InstanceSecurityGroup",
 			"Properties": {
-				"ImageId": { "Ref: "AmiID" },
+				"ImageId": { "Ref": "AmiID" },
 				"InstanceType": "t2.micro",
 				"SecurityGroupIds": [{
 					"Fn::GetAtt": ["InstanceSecurityGroup",
